@@ -1,0 +1,18 @@
+Algoritmo "cd"
+
+Var
+//aumento de 15% no salário
+   s, ns, a : real
+   n : caractere
+Inicio
+      escreva ("Digite o nome do funcionario: ")
+      leia (n)
+      escreva ("Digite o salário atual: R$")
+      leia (s)
+      a <- (s*15)/100
+      ns <- s + a
+      escreval ("Funcionário ",n)
+      escreval ("Novo salário ",ns:5:2)
+      
+
+fimalgoritmo
