@@ -1,7 +1,6 @@
 Algoritmo "cd"
 
 Var
-//aumento de 15% no salário
    s, ns, a : real
    n : caractere
 Inicio
