@@ -1,0 +1,26 @@
+algoritmo "AnalisadorValores"
+var
+   m, s, d5, sp, v, vn : real
+   c : inteiro
+inicio
+      para c := 1 ate 5 faça
+           escreva ("Digite o ",c,"° valor: ")
+           leia (v)
+           s := s + v
+           se (v % 5 = ) entao
+              d5 := d5 + 1
+              se (v % 2 = 0) entao
+                 sp := sp + v
+                 se (v = 0) entao
+                    vn := vn + 1
+                 fimse
+              fimse
+           fimse
+      fimpara
+      m := s / 5
+      escreval ("A soma de todos os valores é: ", s)
+      escreval ("A média entre os valores é: ", m)
+      escreval ("Valores divisíveis por cinco: ", d5)
+      escreval ("Valores nulos: ", vn)
+      escreval ("A soma dos valores pares é: ", sp)
+fimalgoritmo
