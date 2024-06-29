@@ -1,0 +1,12 @@
+Var
+   sdia, dt, s : real
+   n : caractere
+Inicio
+      sdia <- 200
+      escreva ("NOME: ")
+      leia (n)
+      escreva ("QUANTOS DIAS VOCÊ TRABALHOU ESSE MÊS: ")
+      leia (dt)
+      s <- sdia * dt
+      escreva ("SALÁRIO: R$", s:5:2)
+Fimalgoritmo
