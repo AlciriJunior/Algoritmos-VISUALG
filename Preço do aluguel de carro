@@ -1,0 +1,16 @@
+Var
+   dia, km, vdia, vkm, pkm, pdia, vt : real
+Inicio
+      vdia <- 90
+      vkm <- 0.20
+      escreval ("Você rodou quantos kilômetros?")
+      leia (km)
+      escreval ("Quantos dias ficou com carro?")
+      leia (dia)
+               pkm <- vkm * km
+
+               pdia <- vdia * dia
+
+               vt <- pkm + pdia
+      escreva ("VALOR TOTAL: R$", vt:5:2)
+Fimalgoritmo
