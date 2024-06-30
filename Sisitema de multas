@@ -1,0 +1,18 @@
+var
+   v, m, l : inteiro
+Inicio
+      l <- 80
+      m <- 0
+      escreval ("Qual a sua velocidade?: ")
+      leia (v)
+      se (v > l) entao
+         escreval ("Acima do limite. Multado!")
+      repita
+            m <- m + 5
+            l <- l + 1
+      ate (l = v)
+      escreva ("Valor da multa: R$",m:5:2)
+         senao
+              escreva ("Você está no limite.")
+      fimse
+Fimalgoritmo
